@@ -1,0 +1,32 @@
+#heading{
+ text-align:center;   
+ background-color:aqua;
+ padding:4px;
+}
+#b1{
+    float:right;
+    margin-bottom:100px;
+}
+body{
+    text-align: center;
+    background-color: yellow;
+}
+#l3{
+    float:left;
+}
+#l4{
+    float:right;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 5px 5px 5px green ;}
+    to {box-shadow: 5px 5px 5px aqua ;} 
+}
